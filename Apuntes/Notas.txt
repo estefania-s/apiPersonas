@@ -1,0 +1,32 @@
+NOTAS DE JAVA
+
+hashman son dos array juntos
+equals
+this es yo misma
+equals tener en todas las clases
+persistencia en bases de datos
+
+Herencia
+
+Interface:
+Interface no es una clase funcional solo tiene los metodos de las demas clases
+No le doy funcionalidad al metodo
+Los parametros debo escribirlos
+Uso palabra Implements
+Debo usar todos los metodos de la Interface
+Sirve para modelar clases que son necesarias pero que todavia no creamos
+Clase avanzada sencilla
+*Entenderla permite hacerla de forma facil
+
+*Override sobreescribe un metodo
+Polimorfimo: creo un metodo y todas las clases lo implementan de la
+forma en que lo necesitan o a su manera.
+
+Casteo es forzar un tipo a algo que es de otro tipo. Ej. tengo dos enteros 
+los sumo y transformo su resultado en un flotante. No simpre se puede
+hacer, debo hacerlo a traves de metodos.
+Un String no puede ser un entero.
+
+Analisis de algoritmos. Eficiencia.
+
+Funcion recursiva: hace un llamado a si misma
