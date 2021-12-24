@@ -26,25 +26,25 @@ public class PersonaRest {
 	
 	//Metodos HTTP
 	
-	//Guarda registro
+	//Guarda registro - Alta de persona
 	@PostMapping("/guardar")
 	public void guardar(@RequestBody Persona persona) {
 		personaDAO.save(persona);
 	}
 	
-	//Muestra registros
+	//Muestra registros - Ver personas
 	@GetMapping("/listar")
 	public List <Persona> listar(){
 		return personaDAO.findAll();
 	}
 	
-	//Borra registro
+	//Borrar registro - Baja de persona
 	@DeleteMapping("/eliminar{id}")
 	public void eliminar(@PathVariable("id") Integer id) {
 		personaDAO.deleteById(id);
 	}
 	
-	//Actualiza registro
+	//Actualiza registro - Agregar una nueva persona
 	@PutMapping("/actualizar")
 	public void actualizar(@RequestBody Persona persona) {
 		personaDAO.save(persona);
